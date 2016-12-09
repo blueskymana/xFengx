@@ -6,12 +6,11 @@ config wifi-device 'wifi0'
 	option htmode 'HT20'
 
 config wifi-iface
-	option device 'wifi0'
-	option network 'lan'
+    option network 'lan'
 	option mode 'ap'
-	option ssid 'nexfi-ap0'
-	option encryption 'psk-mixed'
-	option key '12345678'
+	#option ssid 'nexfi-ap0'
+	#option encryption 'psk-mixed'
+	#option key '12345678'
 
 config wifi-device 'wifi1'
 	option channel '11'
@@ -20,7 +19,7 @@ config wifi-device 'wifi1'
 	option htmode 'HT20'
 
 config wifi-iface
-	option device 'wifi1'
+    option network 'lan'
 	option mode 'ap'
 	option ssid 'nexfi-br0'
 	option encryption 'psk-mixed'
