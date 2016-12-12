@@ -13,7 +13,7 @@ config wifi-iface
 	#option key '12345678'
 
 config wifi-device 'wifi1'
-	option channel '11'
+	option channel 'auto'
 	option hwmode '11ac'
 	option txpower '17'
 	option htmode 'HT20'
